@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web</title>
+    <style>
+        /* Estilos Generales */
+        * {  
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        /* Contenedor Principal */
+        .container {
+            display: flex;
+            margin: 20px auto;
+            width: 90%;
+            max-width: 1200px;
+            gap: 20px;
+        }
+
+        .image {
+            flex: 1;
+            background-color: #ddd;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+
+        .image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .content {
+            flex: 1;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Centra el texto verticalmente */
+        }
+
+        .content h2 {
+            margin-bottom: 10px;
+            font-size: 1.8rem; /* Tamaño más grande para el título */
+        }
+
+        .content p {
+            font-size: 1.5rem; /* Tamaño más grande para el párrafo */
+            line-height: 1.6; /* Mejor lectura */
+            overflow: hidden; /* Evita que el texto se salga */
+            text-overflow: ellipsis; /* Añade puntos suspensivos si el texto es demasiado largo */
+            -webkit-box-orient: vertical;
+        }
+
+        /* Sección Secundaria */
+        .secondary {
+            display: flex;
+            justify-content: center;
+            margin: 20px auto;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        .secondary .content {
+            border: 1px solid #ccc;
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>CUENTA CUENTOS</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Categorias</a>
+            <a href="#">Nuestras colecciones</a>
+            <a href="#">Búsqueda</a>
+        </nav>
+    </header>
+
+    <!-- Primera Sección Principal -->
+    <section class="container">
+        <div class="image">
+            <img src="prin.jpg" alt="Descripción de la imagen 1">
+        </div>
+        <div class="content">
+            <h2>EL PRINCIPITO</h2>
+            <p>En medio del vasto universo, un pequeño príncipe viaja de planeta en planeta, llevando consigo preguntas tan simples como profundas. En su recorrido, se cruza con personajes que reflejan las luces y sombras del mundo adulto: su absurda complejidad, su soledad y sus valores superficiales. Pero es en la Tierra donde descubre las lecciones más valiosas, aquellas que nos enseñan sobre el amor, la amistad y la importancia de mirar con el corazón. Una historia poética y atemporal que nos recuerda que lo esencial es invisible a los ojos y que a veces, debemos volver a ser niños para comprenderlo todo.</p>
+        </div>
+    </section>
+
+    <!-- Segunda Sección Principal -->
+    <section class="container">
+        <div class="image">
+            <img src="adole.jpg" alt="Descripción de la imagen 2">
+        </div>
+        <div class="content">
+            <h2>ORGULLO Y PREJUICIO</h2>
+            <p>En medio del vasto universo, un pequeño príncipe viaja de planeta en planeta, llevando consigo preguntas tan simples como profundas. En su recorrido, se cruza con personajes que reflejan las luces y sombras del mundo adulto: su absurda complejidad, su soledad y sus valores superficiales. Pero es en la Tierra donde descubre las lecciones más valiosas, aquellas que nos enseñan sobre el amor, la amistad y la importancia de mirar con el corazón. Una historia poética y atemporal que nos recuerda que lo esencial es invisible a los ojos y que a veces, debemos volver a ser niños para comprenderlo todo.</p>
+        </div>
+    </section>
+
+    <!-- Tercera Sección Principal -->
+    <section class="container">
+        <div class="image">
+            <img src="adul.jpg" alt="Descripción de la imagen 3">
+        </div>
+        <div class="content">
+            <h2>NOSOTROS EN LA LUNA</h2>
+            <p>En medio del vasto universo, un pequeño príncipe viaja de planeta en planeta, llevando consigo preguntas tan simples como profundas. En su recorrido, se cruza con personajes que reflejan las luces y sombras del mundo adulto: su absurda complejidad, su soledad y sus valores superficiales. Pero es en la Tierra donde descubre las lecciones más valiosas, aquellas que nos enseñan sobre el amor, la amistad y la importancia de mirar con el corazón. Una historia poética y atemporal que nos recuerda que lo esencial es invisible a los ojos y que a veces, debemos volver a ser niños para comprenderlo todo.</p>
+        </div>
+    </section>
+
+    <!-- Sección Secundaria -->
+    <section class="secondary">
+        <div class="content">
+            <h2>Contactos</h2>
+            <p>Pagina creada por: LESLIE SIMBAÑA;     CORREO lesanahi1508@gmail.com;     TLFN +593967140763.</p>
+        </div>
+    </section>
+</body>
+</html>
+
+
